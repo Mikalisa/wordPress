@@ -25,6 +25,12 @@ define('SENDGRID_PASSWORD', $_ENV["SENDGRID_PASSWORD"]);
 // S3 Config Info - read the S3 Access Keys from the config //
 //define( 'AWS_ACCESS_KEY_ID', $_ENV["BUCKETEER_AWS_ACCESS_KEY_ID"]);
 //define( 'AWS_SECRET_ACCESS_KEY', $_ENV["BUCKETEER_AWS_SECRET_ACCESS_KEY"]); 
+
+define( 'AS3CF_SETTINGS', serialize( array(
+    'provider' => 'aws',
+    'access-key-id' => $_ENV["BUCKETEER_AWS_ACCESS_KEY_ID"],
+    'secret-access-key' => $_ENV["BUCKETEER_AWS_SECRET_ACCESS_KEY"],
+) ) );
  
 // ** ClearDB settings - from Heroku Environment ** //
 $db = parse_url($_ENV["CLEARDB_DATABASE_URL"]); 
