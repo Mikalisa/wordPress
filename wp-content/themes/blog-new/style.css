@@ -1,0 +1,236 @@
+/**
+ * Theme Name:     Blog New
+ * Author:         candidthemes
+ * Template:       gist
+ * Text Domain:	   blog-new
+ * Description:    Blog New is the Child Theme of Gist. This theme is best ever crafted free WordPress theme for Blog, news and Magazine. It is a simple, easy to use, modern and creative, user friendly WordPress theme with typography, fonts and color options. In addition Gist Gird is responsive, cross browser compatible and child theme ready. Gist comes with added custom widgets for social and author, sticky sidebar options, footer widget, sidebar options, meta option, copyright option, social options etc. 
+ * Theme URI:      https://www.candidthemes.com/themes/blog-new-free-wordpress-theme/
+ * Author URI:     https://www.candidthemes.com/
+ * Version:        1.0.3
+ * License:        GNU General Public License v2 or later
+ * License URI:    http://www.gnu.org/licenses/gpl-2.0.html
+ * Tested up to: 5.4
+ * Requires PHP: 5.2
+ * Tags:           two-columns, right-sidebar, custom-background, custom-colors, custom-menu, featured-images, theme-options, threaded-comments, translation-ready, blog
+*/
+/*---------------------------------------------------
+*   Post Column
+*   ----------------------------------------------------- */
+@media screen and (min-width: 768px) {
+    .ct-col-2{
+        width: 48%;
+        float: left;
+        margin-right: 4%;
+    }
+    .ct-col-2:nth-child(2n+1){
+        clear: left;
+    }
+    .ct-col-2:nth-child(2n){
+        margin-right: 0;
+    }
+    .ct-col-2 img.left-image{
+        width: 100%;
+        float: none;
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+/*--------------------------------------------------------------
+## Pagination
+--------------------------------------------------------------*/
+.candid-pagination {
+    clear: both;
+}
+/*--------------------------------------------------------------
+## Navigation
+--------------------------------------------------------------*/
+.main-navigation {
+    background: #fafafa;
+}
+/*--------------------------------------------------------------
+## Primary button
+--------------------------------------------------------------*/
+.btn-primary {
+    border: none;
+    background: #fafafa;
+    z-index: 5;
+}
+.btn-primary:after{
+    content: '';
+    display: none; 
+    position: absolute;
+    bottom: -1px;
+    right: 0;
+    width: 100%;
+    height: 3px;
+    background-color: #d6002a;
+    transition: all .3s ease;
+    z-index: 5;
+}
+.btn-primary:hover{
+    box-shadow: none;
+    color: #ffffff;
+}
+
+.btn-primary:hover:after {
+    height: 100%;
+}
+
+
+/*--------------------------------------------------------------
+## Footer
+--------------------------------------------------------------*/
+.top-footer{
+    background: #111;
+    padding: 60px 0 40px 0;
+}
+footer .site-info{
+    padding: 30px 20px;
+    text-align: center;
+    color: #fff;
+}
+footer .site-info a{
+    color: #fff;
+    opacity: 0.75;
+}
+footer.site-footer {
+    background: #000;
+}
+
+footer .top-footer a,
+footer.site-footer,
+footer .featured-post-title a,
+footer .featured-post-title a:visited{
+    color: #eee;
+}
+footer .widget-title{
+    text-align: left;
+}
+footer .widget-title:after{
+    background: #efefef;
+    left: 0;
+    margin-left: 0;
+}
+footer.site-footer {
+    text-align: justify;
+}
+
+@media screen and (max-width: 767px) {
+    footer .ct-col-4,
+    footer .ct-col-3,
+    footer .ct-col-2,
+    footer .ct-col-1{
+        padding: 0 20px;
+    }
+}
+/*---------------------------------------------------
+*   Post Column
+*   ----------------------------------------------------- */
+@media screen and (min-width: 768px) {
+    #main:after{
+        clear: left;
+        content: "";
+        display: table;
+        table-layout: fixed;
+    }
+    .ct-col-3 {
+        width: 31%;
+        float: left;
+        margin-right: 3.5%;
+    }
+    .ct-col-3:nth-child(3n+1){
+        clear: left;
+    }
+    .ct-col-3:nth-child(3n){
+        margin-right: 0;
+    }
+    .ct-col-2{
+        width: 48%;
+        float: left;
+        margin-right: 4%;
+    }
+    .ct-col-2:nth-child(2n+1){
+        clear: left;
+    }
+    .ct-col-2:nth-child(2n){
+        margin-right: 0;
+    }
+    .ct-col-4{
+        width: 22%;
+        float: left;
+        margin-right: 4%;
+    }
+    .ct-col-4:nth-child(4n+1){
+        clear: left;
+    }
+    .ct-col-4:nth-child(4n){
+        margin-right: 0;
+    }
+    .ct-col-4 img.right-image,
+    .ct-col-4 img.left-image,
+    .ct-col-3 img.right-image,
+    .ct-col-3 img.left-image,
+    .ct-col-2 img.right-image,
+    .ct-col-2 img.left-image{
+        width: 100%;
+        float: none;
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+a.btn.btn-primary {
+    transition: all .5s ease;
+}
+
+a.btn.btn-primary::after {
+    content:'';
+    display:none;
+}
+
+a.btn.btn-primary:hover::after {
+    content:'';
+    display:none;
+}
+
+a.btn.btn-primary::before {
+    content: "";
+    background: white;
+    z-index: -1;
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: -1px;
+    height: 3px;
+    border-bottom: 3px solid #d6002a;
+    transition: all .5s ease;
+}
+
+a.btn.btn-primary:hover::before {
+    content: "";
+    background: #d6002a;
+    height: 100%;
+}
+.btn-primary:hover {
+    background:transparent;
+}
+/*---------------------------------------------------
+*   Widget Design
+*   ----------------------------------------------------- */
+.widget ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+/*---------------------------------------------------
+*   Footer Section
+*   ----------------------------------------------------- */
+
+.clearfix:after{
+    display: table;
+    content: '';
+    clear: left;
+}
+footer.site-footer{
+    padding: 0;
+}

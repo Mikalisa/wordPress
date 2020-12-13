@@ -1,0 +1,54 @@
+/* Layout 387 */
+#pg-387-0, #pg-387-1, #pg-387-2, #pg-387-3, #pg-387-4, #pg-387-5, #pg-387-6, #pl-387 .panel-grid-cell .so-panel {
+    margin-bottom: 30px
+}
+
+#pgc-387-2-0, #pgc-387-2-1, #pgc-387-2-2, #pgc-387-2-3 {
+    width: 25%
+}
+
+#pg-387-2 .panel-grid-cell, #pg-387-5 .panel-grid-cell, #pg-387-7 .panel-grid-cell {
+    float: left
+}
+
+#pgc-387-5-0, #pgc-387-5-1, #pgc-387-5-2 {
+    width: 33.333%
+}
+
+#pgc-387-7-0, #pgc-387-7-1 {
+    width: 50%
+}
+
+#pl-387 .panel-grid-cell .so-panel:last-child {
+    margin-bottom: 0
+}
+
+#pg-387-2, #pg-387-5, #pg-387-7 {
+    margin-left: -15px;
+    margin-right: -15px
+}
+
+#pg-387-2 .panel-grid-cell, #pg-387-5 .panel-grid-cell, #pg-387-7 .panel-grid-cell {
+    padding-left: 15px;
+    padding-right: 15px
+}
+
+@media (max-width: 780px) {
+    #pg-387-0 .panel-grid-cell, #pg-387-1 .panel-grid-cell, #pg-387-2 .panel-grid-cell, #pg-387-3 .panel-grid-cell, #pg-387-4 .panel-grid-cell, #pg-387-5 .panel-grid-cell, #pg-387-6 .panel-grid-cell, #pg-387-7 .panel-grid-cell {
+        float: none;
+        width: auto
+    }
+
+    #pgc-387-2-0, #pgc-387-2-1, #pgc-387-2-2, #pgc-387-5-0, #pgc-387-5-1, #pgc-387-7-0 {
+        margin-bottom: 30px
+    }
+
+    #pl-387 .panel-grid {
+        margin-left: 0;
+        margin-right: 0
+    }
+
+    #pl-387 .panel-grid-cell {
+        padding: 0
+    }
+}

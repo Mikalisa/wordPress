@@ -1,0 +1,106 @@
+.about-container {
+	background-color: #fff;
+	margin-right: 20px;
+	padding: 30px;
+	margin-top: 20px;
+	border: 1px solid #e5e5e5;
+}
+.about-container::before,
+.about-container::after {
+    content: '';
+    clear: both;
+    display: table;
+}
+.about-title {
+	margin: 0 0 45px;
+}
+
+.hello-user {
+	font-size: 18px;
+	color: #bcbfc4;	
+}
+.hello-user span {
+}
+.welcome {
+    overflow: hidden;
+}
+.welcome-desc {
+	font-size: 16px;
+    max-width: 600px;
+    float: left;
+}
+.welcome-img {
+    margin-left: 50px;
+    float: left;
+    /* box-shadow: 0px 5px 5px #000; */
+}
+.welcome-img img {
+    max-width: 400px;
+    box-shadow: 1px 1px 1px #000;
+    padding: 2px;
+}
+.wpxon-theme-tabs {
+	margin-top: 45px;
+}
+.wpxon-tab {
+	display: none;
+	padding: 30px 10px;
+	min-height: 300px;
+}
+.wpxon-tab.show {
+	display: block;
+}
+.wpxon-tab-nav .nav-button {
+	font-size: 18px;
+}
+.wpxon-tab-nav a:active,
+.wpxon-tab-nav a:focus {
+	box-shadow: none;
+}
+.wpxon-tab-nav .nav-button.active {
+	background-color: transparent;
+	border-bottom: 1px solid #fff;
+	margin-bottom: -1px;
+}
+.nav-tab:first-of-type {
+	margin-left: 0;
+}
+.tab-column {
+	width: 45%;
+}
+.tab-column:first-of-type {
+	float: left;
+}
+.tab-column:last-of-type {
+	float: right;
+}
+.wpxon-tab.support .dashicons {
+    display: block;
+    font-size: 32px;
+    height: auto;
+    width: auto;
+    text-align: left;
+} 
+.wpxon-tab .dash-green {
+	color: #5ad15a;
+    font-size: 28px;
+    height: auto;
+    width: auto;
+}
+.wpxon-tab .dash-red {
+	color: #fc6f6f;
+    font-size: 28px;
+    height: auto;
+    width: auto;	
+}
+ul.single-update {
+    margin-bottom: 40px;
+}
+
+ul.single-update li.head {
+    font-weight: 600;
+    text-decoration: underline; 
+}
+ul.single-update li.list::before {
+    content: "-";
+}

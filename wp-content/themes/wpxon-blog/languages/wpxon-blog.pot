@@ -1,0 +1,1329 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WPxon Blog v1.1.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2020-01-31 01:46:24+0000\n"
+"Last-Translator: admin <stalukder03@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: 404.php:17
+#@ wpxon-blog
+msgid "Not Found"
+msgstr ""
+
+#: 404.php:23
+#@ wpxon-blog
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:26
+#@ wpxon-blog
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr ""
+
+#. translators: 1: title.
+#: comments.php:31
+#, php-format
+#@ wpxon-blog
+msgid "%1$s Comment"
+msgstr ""
+
+#. translators: 1: comment count number, 2: title.
+#: comments.php:37
+#, php-format
+#@ wpxon-blog
+msgctxt "comments title"
+msgid "%1$s Comments"
+msgid_plural "%1$s Comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:57
+#@ wpxon-blog
+msgid "Comments are closed."
+msgstr ""
+
+#: functions.php:35
+#@ wpxon-blog
+msgid "Main Menu"
+msgstr ""
+
+#: functions.php:36
+#@ wpxon-blog
+msgid "Mobile Menu"
+msgstr ""
+
+#: functions.php:112
+#@ wpxon-blog
+msgid "Sidebar"
+msgstr ""
+
+#: functions.php:114
+#@ wpxon-blog
+msgid "Add widgets here."
+msgstr ""
+
+#: functions.php:130
+#@ wpxon-blog
+msgctxt "Playfair Display font: on or off"
+msgid "on"
+msgstr ""
+
+#: functions.php:134
+#@ wpxon-blog
+msgctxt "Poppins font: on or off"
+msgid "on"
+msgstr ""
+
+#: header.php:79
+#@ wpxon-blog
+msgid "Home"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:327
+#@ wpxon-blog
+msgid "Install Required Plugins"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:328
+#@ wpxon-blog
+msgid "Install Plugins"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: inc/class-tgm-plugin-activation.php:330
+#, php-format
+#@ wpxon-blog
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: inc/class-tgm-plugin-activation.php:332
+#, php-format
+#@ wpxon-blog
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:333
+#@ wpxon-blog
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#. translators: 1: plugin name(s).
+#: inc/class-tgm-plugin-activation.php:336
+#, php-format
+#@ wpxon-blog
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: inc/class-tgm-plugin-activation.php:342
+#, php-format
+#@ wpxon-blog
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: inc/class-tgm-plugin-activation.php:348
+#, php-format
+#@ wpxon-blog
+msgid "The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s."
+msgid_plural "The following plugins need to be updated to their latest version to ensure maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: inc/class-tgm-plugin-activation.php:354
+#, php-format
+#@ wpxon-blog
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: inc/class-tgm-plugin-activation.php:360
+#, php-format
+#@ wpxon-blog
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: inc/class-tgm-plugin-activation.php:366
+#, php-format
+#@ wpxon-blog
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-tgm-plugin-activation.php:371
+#@ wpxon-blog
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-tgm-plugin-activation.php:376
+#@ wpxon-blog
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-tgm-plugin-activation.php:381
+#@ wpxon-blog
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-tgm-plugin-activation.php:385
+#@ wpxon-blog
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:386
+#: inc/class-tgm-plugin-activation.php:827
+#: inc/class-tgm-plugin-activation.php:2533
+#: inc/class-tgm-plugin-activation.php:3580
+#@ wpxon-blog
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:387
+#: inc/class-tgm-plugin-activation.php:3159
+#@ wpxon-blog
+msgid "Plugin activated successfully."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: inc/class-tgm-plugin-activation.php:390
+#, php-format
+#@ wpxon-blog
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: inc/class-tgm-plugin-activation.php:392
+#, php-format
+#@ wpxon-blog
+msgid "Plugin not activated. A higher version of %s is needed for this theme. Please update the plugin."
+msgstr ""
+
+#. translators: 1: dashboard link.
+#: inc/class-tgm-plugin-activation.php:394
+#, php-format
+#@ wpxon-blog
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:395
+#@ wpxon-blog
+msgid "Dismiss this notice"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:396
+#@ wpxon-blog
+msgid "There are one or more required or recommended plugins to install, update or activate."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:397
+#@ wpxon-blog
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:522
+#@ wpxon-blog
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:523
+#@ wpxon-blog
+msgid "Update Required"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:934
+#@ wpxon-blog
+msgid "The remote plugin package does not contain a folder with the desired slug and renaming did not work."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:934
+#: inc/class-tgm-plugin-activation.php:937
+#@ wpxon-blog
+msgid "Please contact the plugin provider and ask them to package their plugin according to the WordPress guidelines."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:937
+#@ wpxon-blog
+msgid "The remote plugin package consists of more than one file, but the files are not packaged in a folder."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1121
+#: inc/class-tgm-plugin-activation.php:2948
+#@ wpxon-blog
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#. translators: %s: version number
+#: inc/class-tgm-plugin-activation.php:1982
+#, php-format
+#@ wpxon-blog
+msgid "TGMPA v%s"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2273
+#@ wpxon-blog
+msgid "Required"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2276
+#@ wpxon-blog
+msgid "Recommended"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2292
+#@ wpxon-blog
+msgid "WordPress Repository"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2295
+#@ wpxon-blog
+msgid "External Source"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2298
+#@ wpxon-blog
+msgid "Pre-Packaged"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2315
+#@ wpxon-blog
+msgid "Not Installed"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2319
+#@ wpxon-blog
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2321
+#@ wpxon-blog
+msgid "Active"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2327
+#@ wpxon-blog
+msgid "Required Update not Available"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2330
+#@ wpxon-blog
+msgid "Requires Update"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2333
+#@ wpxon-blog
+msgid "Update recommended"
+msgstr ""
+
+#. translators: 1: install status, 2: update status
+#: inc/class-tgm-plugin-activation.php:2342
+#, php-format
+#@ wpxon-blog
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#. translators: 1: number of plugins.
+#: inc/class-tgm-plugin-activation.php:2388
+#, php-format
+#@ wpxon-blog
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: inc/class-tgm-plugin-activation.php:2392
+#, php-format
+#@ wpxon-blog
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: inc/class-tgm-plugin-activation.php:2396
+#, php-format
+#@ wpxon-blog
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: inc/class-tgm-plugin-activation.php:2400
+#, php-format
+#@ wpxon-blog
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-tgm-plugin-activation.php:2482
+#@ wpxon-blog
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2490
+#@ wpxon-blog
+msgid "Installed version:"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2498
+#@ wpxon-blog
+msgid "Minimum required version:"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2510
+#@ wpxon-blog
+msgid "Available version:"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2533
+#@ wpxon-blog
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2547
+#@ wpxon-blog
+msgid "Plugin"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2548
+#@ wpxon-blog
+msgid "Source"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2549
+#@ wpxon-blog
+msgid "Type"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2553
+#@ wpxon-blog
+msgid "Version"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2554
+#@ wpxon-blog
+msgid "Status"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/class-tgm-plugin-activation.php:2603
+#, php-format
+#@ wpxon-blog
+msgid "Install %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/class-tgm-plugin-activation.php:2608
+#, php-format
+#@ wpxon-blog
+msgid "Update %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/class-tgm-plugin-activation.php:2614
+#, php-format
+#@ wpxon-blog
+msgid "Activate %2$s"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2684
+#@ wpxon-blog
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2717
+#@ wpxon-blog
+msgid "Install"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2723
+#@ wpxon-blog
+msgid "Update"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2726
+#@ wpxon-blog
+msgid "Activate"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2757
+#@ wpxon-blog
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2759
+#@ wpxon-blog
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2800
+#@ wpxon-blog
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2802
+#@ wpxon-blog
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2908
+#@ wpxon-blog
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2934
+#@ wpxon-blog
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#. gettext fix: identical singular and plural forms found, that may be ambiguous! Please check the code!
+#: inc/class-tgm-plugin-activation.php:2952
+#: inc/class-tgm-plugin-activation.php:388
+#@ wpxon-blog
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-tgm-plugin-activation.php:3158
+#@ wpxon-blog
+msgid "Plugin activation failed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/class-tgm-plugin-activation.php:3498
+#, php-format
+#@ wpxon-blog
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#. translators: 1: plugin name, 2: error message.
+#: inc/class-tgm-plugin-activation.php:3501
+#, php-format
+#@ wpxon-blog
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: inc/class-tgm-plugin-activation.php:3503
+#, php-format
+#@ wpxon-blog
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3507
+#@ wpxon-blog
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: inc/class-tgm-plugin-activation.php:3509
+#, php-format
+#@ wpxon-blog
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3509
+#: inc/class-tgm-plugin-activation.php:3517
+#@ wpxon-blog
+msgid "Show Details"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3509
+#: inc/class-tgm-plugin-activation.php:3517
+#@ wpxon-blog
+msgid "Hide Details"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3510
+#@ wpxon-blog
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/class-tgm-plugin-activation.php:3512
+#, php-format
+#@ wpxon-blog
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3515
+#@ wpxon-blog
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: inc/class-tgm-plugin-activation.php:3517
+#, php-format
+#@ wpxon-blog
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3518
+#@ wpxon-blog
+msgid "All installations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/class-tgm-plugin-activation.php:3520
+#, php-format
+#@ wpxon-blog
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/customizer.php:26
+#@ wpxon-blog
+msgid "Link Color"
+msgstr ""
+
+#: inc/customizer.php:42
+#@ wpxon-blog
+msgid "Link Hover Color"
+msgstr ""
+
+#: inc/customizer.php:55
+#@ wpxon-blog
+msgid "Header Default Text"
+msgstr ""
+
+#: inc/customizer.php:60
+#@ wpxon-blog
+msgid "Write header default text here."
+msgstr ""
+
+#: inc/customizer.php:65
+#@ wpxon-blog
+msgid "Header Settings"
+msgstr ""
+
+#: inc/customizer.php:77
+#@ wpxon-blog
+msgid "Banner Style"
+msgstr ""
+
+#: inc/customizer.php:79
+#: inc/meta-box.php:28
+#@ wpxon-blog
+msgid "Default"
+msgstr ""
+
+#: inc/customizer.php:80
+#: inc/meta-box.php:29
+#: inc/meta-box.php:35
+#@ wpxon-blog
+msgid "Featured Banner"
+msgstr ""
+
+#: inc/customizer.php:81
+#: inc/meta-box.php:30
+#@ wpxon-blog
+msgid "Post Slider"
+msgstr ""
+
+#: inc/customizer.php:87
+#@ wpxon-blog
+msgid "Footer Settings"
+msgstr ""
+
+#: inc/customizer.php:96
+#@ wpxon-blog
+msgid "Copyright Text"
+msgstr ""
+
+#: inc/customizer.php:100
+#@ wpxon-blog
+msgid "Write copyright text here."
+msgstr ""
+
+#. Translators: 1 = comment date, 2 = comment time
+#: inc/extras.php:109
+#, php-format
+#@ wpxon-blog
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: inc/extras.php:146
+#@ wpxon-blog
+msgid "&nbsp;"
+msgstr ""
+
+#: inc/extras.php:148
+#@ wpxon-blog
+msgid "Post Comment"
+msgstr ""
+
+#: inc/extras.php:158
+#@ wpxon-blog
+msgid "Submit"
+msgstr ""
+
+#: inc/extras.php:221
+#@ wpxon-blog
+msgid "ADD MENU"
+msgstr ""
+
+#: inc/extras.php:249
+#@ wpxon-blog
+msgid "Copyright &copy; 2019 "
+msgstr ""
+
+#: inc/extras.php:252
+#@ wpxon-blog
+msgid "WPxon"
+msgstr ""
+
+#: inc/extras.php:261
+#@ wpxon-blog
+msgid "Blog"
+msgstr ""
+
+#: inc/extras.php:288
+#@ wpxon-blog
+msgid "404 Not Found"
+msgstr ""
+
+#: inc/meta-box.php:14
+#@ wpxon-blog
+msgid "Page Settings"
+msgstr ""
+
+#: inc/meta-box.php:23
+#@ wpxon-blog
+msgid "Banner Styles"
+msgstr ""
+
+#: inc/meta-box.php:32
+#@ wpxon-blog
+msgid "Go to customizer to upload/change the Default Banner image."
+msgstr ""
+
+#: inc/meta-box.php:37
+#@ wpxon-blog
+msgid "Upload banner image from here."
+msgstr ""
+
+#: inc/meta-box.php:53
+#@ wpxon-blog
+msgid "Post Format Settings"
+msgstr ""
+
+#: inc/meta-box.php:62
+#@ wpxon-blog
+msgid "Video Type"
+msgstr ""
+
+#: inc/meta-box.php:67
+#@ wpxon-blog
+msgid "Youtube"
+msgstr ""
+
+#: inc/meta-box.php:68
+#@ wpxon-blog
+msgid "Facebook"
+msgstr ""
+
+#: inc/meta-box.php:69
+#@ wpxon-blog
+msgid "Vimeo"
+msgstr ""
+
+#: inc/meta-box.php:70
+#@ wpxon-blog
+msgid "Dailymotion"
+msgstr ""
+
+#: inc/meta-box.php:75
+#@ wpxon-blog
+msgid "Video ID"
+msgstr ""
+
+#: inc/meta-box.php:77
+#@ wpxon-blog
+msgid "the <b>ID</b> is the bold text eg. http://vimeo.com/<b>27299211</b>, https://www.youtube.com/watch?v=<b>1LzRIhUAilk</b> If data is not set though post format is enabled then featured image will display by default."
+msgstr ""
+
+#: inc/meta-box.php:82
+#@ wpxon-blog
+msgid "Gallery Images"
+msgstr ""
+
+#: inc/meta-box.php:84
+#@ wpxon-blog
+msgid "Upload Gallery Images Here. If gallery image is not avaliable then featured image will be displayed. If data is not set though post format is enabled then featured image will display by default."
+msgstr ""
+
+#: inc/meta-box.php:88
+#@ wpxon-blog
+msgid "Audio Url"
+msgstr ""
+
+#: inc/meta-box.php:90
+#@ wpxon-blog
+msgid "Insert soundcloud trac link here. If data is not set though post format is enabled then featured image will display by default. "
+msgstr ""
+
+#: inc/meta-box.php:94
+#@ wpxon-blog
+msgid "Quote Text"
+msgstr ""
+
+#: inc/meta-box.php:96
+#@ wpxon-blog
+msgid "Write quote here. If data is not set though post format is enabled then featured image will display by default."
+msgstr ""
+
+#: inc/recommended-plugins.php:9
+#@ wpxon-blog
+msgid "CMB2"
+msgstr ""
+
+#: inc/recommended-plugins.php:14
+#@ wpxon-blog
+msgid "Smart Author Box"
+msgstr ""
+
+#. translators: %s: post date.
+#: inc/template-tags.php:26
+#, php-format
+#@ wpxon-blog
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr ""
+
+#. translators: %s: post author.
+#: inc/template-tags.php:39
+#, php-format
+#@ wpxon-blog
+msgctxt "post author"
+msgid "by %s"
+msgstr ""
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:53
+#@ wpxon-blog
+msgid ", "
+msgstr ""
+
+#. translators: 1: list of categories.
+#: inc/template-tags.php:56
+#, php-format
+#@ wpxon-blog
+msgid "Posted in %1$s"
+msgstr ""
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:59
+#@ wpxon-blog
+msgctxt "list item separator"
+msgid ", "
+msgstr ""
+
+#. translators: 1: list of tags.
+#: inc/template-tags.php:62
+#, php-format
+#@ wpxon-blog
+msgid "Tagged %1$s"
+msgstr ""
+
+#. translators: %s: post title
+#: inc/template-tags.php:71
+#, php-format
+#@ wpxon-blog
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#. translators: %s: Name of current post. Only visible to screen readers
+#: inc/template-tags.php:87
+#: template-parts/content-page.php:31
+#, php-format
+#@ wpxon-blog
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr ""
+
+#: inc/upsell/theme-about.php:17
+#@ wpxon-blog
+msgid "About WPxon"
+msgstr ""
+
+#: inc/upsell/theme-about.php:26
+#, php-format
+#@ wpxon-blog
+msgid "Welcome to WPxon Blog version %s"
+msgstr ""
+
+#: inc/upsell/theme-about.php:28
+#@ wpxon-blog
+msgid "Wpxon Blog is a clean and creative responsive blog theme for writers, bloggers, travelers & photographers who wish to share their incredible stories on different niche like lifestyle, travel, food, technology, fashion, business, marketing etc. The theme is responsive, it is fully compatible with mobile phones, desktop computers and tablets. You can create a beautiful website with this theme. For more information, visit our website: "
+msgstr ""
+
+#: inc/upsell/theme-about.php:28
+#@ wpxon-blog
+msgid "https://wpxon.com/"
+msgstr ""
+
+#: inc/upsell/theme-about.php:36
+#@ wpxon-blog
+msgid "Getting started"
+msgstr ""
+
+#: inc/upsell/theme-about.php:37
+#@ wpxon-blog
+msgid "Recommended Actions"
+msgstr ""
+
+#: inc/upsell/theme-about.php:38
+#@ wpxon-blog
+msgid "Support"
+msgstr ""
+
+#: inc/upsell/theme-about.php:39
+#: inc/upsell/theme-about.php:84
+#@ wpxon-blog
+msgid "Changelog"
+msgstr ""
+
+#: inc/upsell/theme-about.php:45
+#@ wpxon-blog
+msgid "Step 1 - Implement recommended actions"
+msgstr ""
+
+#: inc/upsell/theme-about.php:46
+#@ wpxon-blog
+msgid "We've made a list of steps for you to follow to get the most of WPxon Blog."
+msgstr ""
+
+#: inc/upsell/theme-about.php:47
+#@ wpxon-blog
+msgid "Check recommended actions"
+msgstr ""
+
+#: inc/upsell/theme-about.php:49
+#@ wpxon-blog
+msgid "Step 2 - Read documentation"
+msgstr ""
+
+#: inc/upsell/theme-about.php:50
+#@ wpxon-blog
+msgid "Our documentation (including video tutorials) will have you up and running in no time."
+msgstr ""
+
+#: inc/upsell/theme-about.php:51
+#@ wpxon-blog
+msgid "Documentation"
+msgstr ""
+
+#: inc/upsell/theme-about.php:53
+#@ wpxon-blog
+msgid "Step 3 - Customize"
+msgstr ""
+
+#: inc/upsell/theme-about.php:54
+#@ wpxon-blog
+msgid "Use the Customizer to make WPxon Blog your own."
+msgstr ""
+
+#: inc/upsell/theme-about.php:55
+#@ wpxon-blog
+msgid "Go to Customizer"
+msgstr ""
+
+#: inc/upsell/theme-about.php:59
+#@ wpxon-blog
+msgid "Install: CMB2"
+msgstr ""
+
+#: inc/upsell/theme-about.php:60
+#@ wpxon-blog
+msgid "It is highly recommended that you install CMB2 (metabox plugin). It will enable the post format functionality of this theme."
+msgstr ""
+
+#: inc/upsell/theme-about.php:66
+#@ wpxon-blog
+msgid "Install and Activate"
+msgstr ""
+
+#: inc/upsell/theme-about.php:69
+#@ wpxon-blog
+msgid "Plugin installed and active!"
+msgstr ""
+
+#: inc/upsell/theme-about.php:77
+#@ wpxon-blog
+msgid "Visit our forums"
+msgstr ""
+
+#: inc/upsell/theme-about.php:78
+#@ wpxon-blog
+msgid "Need help? Go ahead and visit our support forums and we'll be happy to assist you with any theme related questions you might have"
+msgstr ""
+
+#: inc/upsell/theme-about.php:79
+#@ wpxon-blog
+msgid "Visit the forums"
+msgstr ""
+
+#: inc/upsell/theme-about.php:88
+#@ wpxon-blog
+msgid "1.1.2 - Jan 30, 2020"
+msgstr ""
+
+#: inc/upsell/theme-about.php:91
+#@ wpxon-blog
+msgid "Comment date format bug fixed."
+msgstr ""
+
+#: inc/upsell/theme-about.php:94
+#@ wpxon-blog
+msgid "Single post navigation added."
+msgstr ""
+
+#: inc/upsell/theme-about.php:99
+#@ wpxon-blog
+msgid "1.1.1 - Aug 1, 2019"
+msgstr ""
+
+#: inc/upsell/theme-about.php:102
+#@ wpxon-blog
+msgid "Smart Author Box Plugin recommended."
+msgstr ""
+
+#: inc/upsell/theme-about.php:107
+#@ wpxon-blog
+msgid "1.1.0 - July 22, 2019"
+msgstr ""
+
+#: inc/upsell/theme-about.php:110
+#@ wpxon-blog
+msgid "Post Slider Added."
+msgstr ""
+
+#: inc/upsell/theme-about.php:115
+#@ wpxon-blog
+msgid "1.0.9 - July 20, 2019"
+msgstr ""
+
+#: inc/upsell/theme-about.php:118
+#@ wpxon-blog
+msgid "Banner Section Added."
+msgstr ""
+
+#: inc/upsell/theme-about.php:121
+#@ wpxon-blog
+msgid "CSS issue fixed."
+msgstr ""
+
+#: inc/upsell/theme-about.php:126
+#@ wpxon-blog
+msgid "1.0.8 - May 24, 2019 "
+msgstr ""
+
+#: inc/upsell/theme-about.php:129
+#@ wpxon-blog
+msgid "Link Color & Link Hover color settings added to the customizer panel."
+msgstr ""
+
+#: inc/upsell/theme-about.php:134
+#@ wpxon-blog
+msgid "1.0.7 - Apr 13, 2019 "
+msgstr ""
+
+#: inc/upsell/theme-about.php:137
+#@ wpxon-blog
+msgid "Breadcrumb responsive issue fixed. "
+msgstr ""
+
+#: inc/upsell/theme-about.php:142
+#@ wpxon-blog
+msgid "1.0.6 - March 29, 2019"
+msgstr ""
+
+#: inc/upsell/theme-about.php:145
+#@ wpxon-blog
+msgid "Post format feature added."
+msgstr ""
+
+#: inc/upsell/theme-about.php:148
+#@ wpxon-blog
+msgid "css style issues improved."
+msgstr ""
+
+#: inc/upsell/theme-about.php:151
+#@ wpxon-blog
+msgid "Theme about page added."
+msgstr ""
+
+#: inc/upsell/theme-about.php:156
+#@ wpxon-blog
+msgid "1.0.5 - March 7, 2019"
+msgstr ""
+
+#: inc/upsell/theme-about.php:159
+#@ wpxon-blog
+msgid "Pagination style improved."
+msgstr ""
+
+#: inc/upsell/theme-about.php:162
+#@ wpxon-blog
+msgid "Blog Left Sideabr Added."
+msgstr ""
+
+#: inc/upsell/theme-about.php:165
+#@ wpxon-blog
+msgid "Blog 2 Column Tempalte Added."
+msgstr ""
+
+#: inc/upsell/theme-about.php:168
+#@ wpxon-blog
+msgid "Blog 3 Column Tempalte Added."
+msgstr ""
+
+#: inc/upsell/theme-about.php:171
+#@ wpxon-blog
+msgid "Masonry added to the post grid."
+msgstr ""
+
+#: inc/upsell/theme-about.php:176
+#@ wpxon-blog
+msgid "1.0.4 - March 1, 2019"
+msgstr ""
+
+#: inc/upsell/theme-about.php:179
+#@ wpxon-blog
+msgid "Header Text static to changebale. Input field added to the customizer under Header Image."
+msgstr ""
+
+#: inc/upsell/theme-about.php:182
+#: inc/upsell/theme-about.php:204
+#@ wpxon-blog
+msgid "pot file updated."
+msgstr ""
+
+#: inc/upsell/theme-about.php:187
+#@ wpxon-blog
+msgid "1.0.2 - February 1, 2019"
+msgstr ""
+
+#: inc/upsell/theme-about.php:190
+#@ wpxon-blog
+msgid "Non minified files included."
+msgstr ""
+
+#: inc/upsell/theme-about.php:193
+#@ wpxon-blog
+msgid "Image license issue fixed."
+msgstr ""
+
+#: inc/upsell/theme-about.php:196
+#@ wpxon-blog
+msgid "Translate function added to the comment number."
+msgstr ""
+
+#: inc/upsell/theme-about.php:201
+#@ wpxon-blog
+msgid "1.0.1 - January 1, 2019"
+msgstr ""
+
+#: template-parts/content-2.php:25
+#: template-parts/content-3.php:25
+#: template-parts/content-audio.php:34
+#: template-parts/content-blog.php:25
+#: template-parts/content-gallery.php:40
+#: template-parts/content-quote.php:32
+#: template-parts/content-single-audio.php:25
+#: template-parts/content-single-gallery.php:31
+#: template-parts/content-single-quote.php:23
+#: template-parts/content-single-video.php:42
+#: template-parts/content-single.php:16
+#: template-parts/content-video.php:51
+#: template-parts/content.php:25
+#: template-parts/tmp-post-box-width.php:32
+#: template-parts/tmp-post-left-sidebar.php:37
+#@ wpxon-blog
+msgid "by"
+msgstr ""
+
+#: template-parts/content-2.php:28
+#: template-parts/content-3.php:28
+#: template-parts/content-audio.php:37
+#: template-parts/content-blog.php:28
+#: template-parts/content-gallery.php:43
+#: template-parts/content-quote.php:35
+#: template-parts/content-single-audio.php:28
+#: template-parts/content-single-gallery.php:34
+#: template-parts/content-single-quote.php:26
+#: template-parts/content-single-video.php:45
+#: template-parts/content-single.php:19
+#: template-parts/content-video.php:54
+#: template-parts/content.php:28
+#: template-parts/tmp-post-box-width.php:35
+#: template-parts/tmp-post-left-sidebar.php:40
+#@ wpxon-blog
+msgid "No comments"
+msgstr ""
+
+#: template-parts/content-2.php:29
+#: template-parts/content-3.php:29
+#: template-parts/content-audio.php:38
+#: template-parts/content-blog.php:29
+#: template-parts/content-gallery.php:44
+#: template-parts/content-quote.php:36
+#: template-parts/content-single-audio.php:29
+#: template-parts/content-single-gallery.php:35
+#: template-parts/content-single-quote.php:27
+#: template-parts/content-single-video.php:46
+#: template-parts/content-single.php:20
+#: template-parts/content-video.php:55
+#: template-parts/content.php:29
+#: template-parts/tmp-post-box-width.php:36
+#: template-parts/tmp-post-left-sidebar.php:41
+#@ wpxon-blog
+msgid "1 comment"
+msgstr ""
+
+#: template-parts/content-2.php:30
+#: template-parts/content-3.php:30
+#: template-parts/content-audio.php:39
+#: template-parts/content-blog.php:30
+#: template-parts/content-gallery.php:45
+#: template-parts/content-quote.php:37
+#: template-parts/content-single-audio.php:30
+#: template-parts/content-single-gallery.php:36
+#: template-parts/content-single-quote.php:28
+#: template-parts/content-single-video.php:47
+#: template-parts/content-single.php:21
+#: template-parts/content-video.php:56
+#: template-parts/content.php:30
+#: template-parts/tmp-post-box-width.php:37
+#: template-parts/tmp-post-left-sidebar.php:42
+#@ wpxon-blog
+msgid "% comments"
+msgstr ""
+
+#: template-parts/content-2.php:41
+#: template-parts/content-3.php:41
+#: template-parts/content-audio.php:50
+#: template-parts/content-blog.php:41
+#: template-parts/content-gallery.php:56
+#: template-parts/content-quote.php:48
+#: template-parts/content-video.php:67
+#: template-parts/content.php:41
+#@ wpxon-blog
+msgid "Read More"
+msgstr ""
+
+#: template-parts/content-none.php:12
+#@ wpxon-blog
+msgid "Nothing Found"
+msgstr ""
+
+#. translators: 1: link to WP admin new post page.
+#: template-parts/content-none.php:20
+#, php-format
+#@ wpxon-blog
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:31
+#@ wpxon-blog
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:36
+#@ wpxon-blog
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr ""
+
+#: template-parts/content-page.php:19
+#: template-parts/content-single-audio.php:37
+#: template-parts/content-single-gallery.php:43
+#: template-parts/content-single-quote.php:35
+#: template-parts/content-single-video.php:54
+#: template-parts/content-single.php:28
+#: template-parts/tmp-post-box-width.php:44
+#: template-parts/tmp-post-left-sidebar.php:49
+#@ wpxon-blog
+msgid "Pages:"
+msgstr ""
+
+#: template-parts/content-quote.php:15
+#: template-parts/content-single-quote.php:6
+#, php-format
+#@ wpxon-blog
+msgid "<p>%s</p>"
+msgstr ""
+
+#: template-parts/content-single-audio.php:47
+#: template-parts/content-single-gallery.php:53
+#: template-parts/content-single-quote.php:45
+#: template-parts/content-single-video.php:64
+#: template-parts/content-single.php:38
+#: template-parts/tmp-post-box-width.php:54
+#: template-parts/tmp-post-left-sidebar.php:59
+#, php-format
+#@ wpxon-blog
+msgctxt "Parent post link"
+msgid "<span class=\"meta-nav\">Published in</span><span class=\"post-title\">%title</span>"
+msgstr ""
+
+#: template-parts/content-single-audio.php:52
+#: template-parts/content-single-gallery.php:58
+#: template-parts/content-single-quote.php:50
+#: template-parts/content-single-video.php:69
+#: template-parts/content-single.php:43
+#: template-parts/tmp-post-box-width.php:59
+#: template-parts/tmp-post-left-sidebar.php:64
+#@ wpxon-blog
+msgid "Next - "
+msgstr ""
+
+#: template-parts/content-single-audio.php:54
+#: template-parts/content-single-gallery.php:60
+#: template-parts/content-single-quote.php:52
+#: template-parts/content-single-video.php:71
+#: template-parts/content-single.php:45
+#: template-parts/tmp-post-box-width.php:61
+#: template-parts/tmp-post-left-sidebar.php:66
+#@ wpxon-blog
+msgid "Previous - "
+msgstr ""
+
