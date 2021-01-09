@@ -1,0 +1,64 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+/*@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800);*/
+ 
+/* ------------------------------------
+12.sab page testimonial start here 
+---------------------------------------*/
+
+.blog-authors {
+  display: flex;
+  padding: 25px 0;
+  border-top: 1px solid #efefef;
+  border-bottom: 1px solid #efefef;
+  margin: 25px 0;
+}
+
+.blog-authors-image {
+  width: 90px;
+  flex-shrink: 0;
+  margin-right: 25px;
+}
+.blog-authors-image .avatar {
+  border-radius: 0 !important;
+  margin: 0 !important;
+  width: inherit;
+  height: inherit;
+}
+.blog-authors-text h5 {
+    font-weight: 700;
+    color: #000000;
+    margin-bottom: 6px;
+    line-height: 1.68;
+    position: relative;
+    margin-top: 0;
+}
+.blog-authors-text p{
+  font-size: 14px !important;
+  margin:10px 0 !important;
+}
+.author{ 
+    position: relative;
+}
+ul.blog-details-share {
+    position: absolute;
+    right: 0;
+    top: 0; 
+    display: inline-flex;
+    margin-right: -10px;
+    list-style: none;
+}
+.blog-details-share li {
+    padding: 0 10px;
+}
+.blog-details-share li a {
+    font-size: 14px;
+    color: #000000;
+}
+.blog-details p {
+    font-weight: 400;
+    font-size: 14px;
+    margin-bottom: 0;
+}
