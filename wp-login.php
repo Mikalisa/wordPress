@@ -12,15 +12,15 @@
 require( dirname(__FILE__) . '/wp-load.php' );
 
 // Redirect to https login if forced to use SSL
-// if ( force_ssl_admin() && ! is_ssl() ) {
-// 	if ( 0 === strpos($_SERVER['REQUEST_URI'], 'http') ) {
-// 		wp_redirect( set_url_scheme( $_SERVER['REQUEST_URI'], 'https' ) );
-// 		exit();
-// 	} else {
-// 		wp_redirect( 'https://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'] );
-// 		exit();
-// 	}
-// }
+if ( force_ssl_admin() && ! is_ssl() ) {
+	if ( 0 === strpos($_SERVER['REQUEST_URI'], 'http') ) {
+		wp_redirect( set_url_scheme( $_SERVER['REQUEST_URI'], 'https' ) );
+		exit();
+	} else {
+		wp_redirect( 'https://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'] );
+		exit();
+	}
+}
 
 /**
  * Output the login page header.
@@ -628,7 +628,7 @@ case 'rp' :
 	$rp_cookie = 'wp-resetpass-' . COOKIEHASH;
 	if ( isset( $_GET['key'] ) ) {
 		$value = sprintf( '%s:%s', wp_unslash( $_GET['login'] ), wp_unslash( $_GET['key'] ) );
-	//	setcookie( $rp_cookie, $value, 0, $rp_path, COOKIE_DOMAIN, is_ssl(), true );
+		setcookie( $rp_cookie, $value, 0, $rp_path, COOKIE_DOMAIN, is_ssl(), true );
 		wp_safe_redirect( remove_query_arg( array( 'key', 'login' ) ) );
 		exit;
 	}
@@ -644,7 +644,7 @@ case 'rp' :
 	}
 
 	if ( ! $user || is_wp_error( $user ) ) {
-	//	setcookie( $rp_cookie, ' ', time() - YEAR_IN_SECONDS, $rp_path, COOKIE_DOMAIN, is_ssl(), true );
+		setcookie( $rp_cookie, ' ', time() - YEAR_IN_SECONDS, $rp_path, COOKIE_DOMAIN, is_ssl(), true );
 		if ( $user && $user->get_error_code() === 'expired_key' )
 			wp_redirect( site_url( 'wp-login.php?action=lostpassword&error=expiredkey' ) );
 		else
@@ -669,7 +669,7 @@ case 'rp' :
 
 	if ( ( ! $errors->get_error_code() ) && isset( $_POST['pass1'] ) && !empty( $_POST['pass1'] ) ) {
 		reset_password($user, $_POST['pass1']);
-	//	setcookie( $rp_cookie, ' ', time() - YEAR_IN_SECONDS, $rp_path, COOKIE_DOMAIN, is_ssl(), true );
+		setcookie( $rp_cookie, ' ', time() - YEAR_IN_SECONDS, $rp_path, COOKIE_DOMAIN, is_ssl(), true );
 		login_header( __( 'Password Reset' ), '<p class="message reset-pass">' . __( 'Your password has been reset.' ) . ' <a href="' . esc_url( wp_login_url() ) . '">' . __( 'Log in' ) . '</a></p>' );
 		login_footer();
 		exit;
@@ -846,27 +846,27 @@ default:
 		wp_enqueue_script( 'customize-base' );
 
 	// If the user wants ssl but the session is not ssl, force a secure cookie.
-	// if ( !empty($_POST['log']) && !force_ssl_admin() ) {
-	// 	$user_name = sanitize_user($_POST['log']);
-	// 	$user = get_user_by( 'login', $user_name );
+	if ( !empty($_POST['log']) && !force_ssl_admin() ) {
+		$user_name = sanitize_user($_POST['log']);
+		$user = get_user_by( 'login', $user_name );
 
-	// 	if ( ! $user && strpos( $user_name, '@' ) ) {
-	// 		$user = get_user_by( 'email', $user_name );
-	// 	}
+		if ( ! $user && strpos( $user_name, '@' ) ) {
+			$user = get_user_by( 'email', $user_name );
+		}
 
-	// 	if ( $user ) {
-	// 		if ( get_user_option('use_ssl', $user->ID) ) {
-	// 			$secure_cookie = true;
-	// 			force_ssl_admin(true);
-	// 		}
-	// 	}
-	// }
+		if ( $user ) {
+			if ( get_user_option('use_ssl', $user->ID) ) {
+				$secure_cookie = true;
+				force_ssl_admin(true);
+			}
+		}
+	}
 
 	if ( isset( $_REQUEST['redirect_to'] ) ) {
 		$redirect_to = $_REQUEST['redirect_to'];
 		// Redirect to https if user wants ssl
-		// if ( $secure_cookie && false !== strpos($redirect_to, 'wp-admin') )
-		// 	$redirect_to = preg_replace('|^http://|', 'https://', $redirect_to);
+		if ( $secure_cookie && false !== strpos($redirect_to, 'wp-admin') )
+			$redirect_to = preg_replace('|^http://|', 'https://', $redirect_to);
 	} else {
 		$redirect_to = admin_url();
 	}
